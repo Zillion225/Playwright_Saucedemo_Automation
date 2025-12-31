@@ -93,11 +93,3 @@ By default, this project uses the **HTML Reporter**.
 3. Submit a Pull Request.
 
 ```
-
-### How to use this:
-1. Create a new file in your project root called `README.md`.
-2. Click the **Copy** icon on the code block above.
-3. Paste the content into your new file.
-4. Replace the placeholders (like `[Insert Project Name]`) with your actual project details.
-
-Would you like me to show you how to add a **Table of Contents** with clickable links to this README?
