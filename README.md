@@ -1,8 +1,3 @@
-I understand. It can sometimes be tricky to copy text if the formatting is nested.
-
-Below is the **raw Markdown code** inside a single, clean code block. You should see a **"Copy"** button at the top-right corner of this block. Click that, and you can paste it directly into your `README.md` file.
-
-```markdown
 # 🎭 Playwright Automation Framework
 
 This project contains the end-to-end (E2E) testing suite for **[Insert Project Name]**. It uses [Playwright](https://playwright.dev/) to ensure cross-browser compatibility and reliable web automation.
@@ -108,5 +103,3 @@ By default, this project uses the **HTML Reporter**.
 4. Replace the placeholders (like `[Insert Project Name]`) with your actual project details.
 
 Would you like me to show you how to add a **Table of Contents** with clickable links to this README?
-
-```
