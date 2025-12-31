@@ -92,4 +92,3 @@ By default, this project uses the **HTML Reporter**.
 2. Ensure all tests pass locally.
 3. Submit a Pull Request.
 
-```
