@@ -1,0 +1,30 @@
+testdata:
+  users:
+    standardUser:
+      username: standard_user
+      password: secret_sauce
+    lockUser:
+      username: locked_out_user
+      password: secret_sauce
+      error_message: Sorry, this user has been locked out.
+    problemUser:
+      username: problem_user
+      password: secret_sauce
+    performanceGlitchUser:
+      username: performance_glitch_user
+      password: secret_sauce
+    errorUser:
+      username: error_user
+      password: secret_sauce
+    visualUser:
+      username: visual_user
+      password: secret_sauce
+  testSelectItem:
+    group1:
+      - Sauce Labs Backpack
+      - Sauce Labs Onesie
+  checkoutInfo:
+    info1:
+      firstname: Wirut
+      lastname: Saijai
+      zipcode: 10100

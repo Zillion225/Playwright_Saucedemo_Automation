@@ -1,0 +1,43 @@
+locator_saucedemo:
+  common:
+    logo: xpath=//*[@class="app_logo"]
+    btnIconCart: xpath=//*[@data-test="shopping-cart-link"]
+    lblCartBadge: xpath=//*[@data-test="shopping-cart-badge"]
+  loginPage:
+    txtUsername: xpath=//input[@id="user-name"]
+    txtPassword: xpath=//input[@id="password"]
+    btnLogin: xpath=//*[@id="login-button"]
+    pnlAllUsername: xpath=//*[@id="login_credentials"]
+    pnlPassword: xpath=//*[@data-test="login-password"]
+    pnlErrorMsg: xpath=//*[@data-test="error"]
+  inventoryPage:
+    lblPageTitle: xpath=//*[@data-test="title" and .="Products"]
+    lblProductPriceByProductName: xpath=//div[@data-test="inventory-item-name" and contains(., '{{product_name}}')]/ancestor::div[@data-test="inventory-item"]//div[@data-test="inventory-item-price"]
+    btnAddToCartByProductName: xpath=//div[@data-test="inventory-item-name" and contains(., '{{product_name}}')]/ancestor::div[@data-test="inventory-item"]//button[contains(@id, 'add-to-cart')]
+    btnRemoveToCartByProductName: //div[@data-test="inventory-item-name" and contains(., '{{product_name}}')]/ancestor::div[@data-test="inventory-item"]//button[contains(@id, 'remove')]
+    btnToCartByProductName: //div[@data-test="inventory-item-name" and contains(., '{{product_name}}')]/ancestor::div[@data-test="inventory-item"]//button
+  cartPage:
+    lblPageTitle: xpath=//*[@data-test="title" and .="Your Cart"]
+    lblAllProductOnCart: xpath=//*[@data-test="inventory-item-name"]
+    lblProductOnCartByProductName: xpath=//*[@data-test="inventory-item-name" and contains(., '{{product_name}}')]
+    btnCheckout: xpath=//*[@id="checkout"]
+    btnContinueShopping: xpath=//*[@id="continue-shopping"]
+  checkoutPage:
+    lblPageTitle: 'xpath=//*[@data-test="title" and .="Checkout: Your Information"]'
+    txtFirstname: xpath=//input[@id="first-name"]
+    txtLastname: xpath=//input[@id="last-name"]
+    txtZipcode: xpath=//input[@id="postal-code"]
+    btnContinue: xpath=//*[@id="continue"]
+    btnCancel: xpath=//*[@id="cancel"]
+  checkoutOverviewPage:
+    lblPageTitle: 'xpath=//*[@data-test="title" and .="Checkout: Overview"]'
+    lblAllProductOnCart: xpath=//*[@data-test="inventory-item-name"]
+    btnFinish: xpath=//*[@id="finish"]
+    btnCancel: xpath=//*[@id="cancel"]
+    lblTotalPriceItem: xpath=//*[@data-test="subtotal-label"]
+  completePage:
+    lblPageTitle: 'xpath=//*[@data-test="title" and .="Checkout: Complete!"]'
+    lblCompleteHeader: xpath=//*[@data-test="complete-header"]
+    lblCompleteText: xpath=//*[@data-test="complete-text"]
+    btnBackHome: xpath=//*[@id="back-to-products"]
+
