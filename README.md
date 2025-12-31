@@ -1,6 +1,6 @@
 # 🎭 Playwright Automation Framework
 
-This project contains the end-to-end (E2E) testing suite for **[Insert Project Name]**. It uses [Playwright](https://playwright.dev/) to ensure cross-browser compatibility and reliable web automation.
+This project contains the end-to-end (E2E) testing suite for **Playwright_Saucedemo_Automation**. It uses [Playwright](https://playwright.dev/) to ensure cross-browser compatibility and reliable web automation.
 
 ---
 
@@ -14,7 +14,7 @@ This project contains the end-to-end (E2E) testing suite for **[Insert Project N
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/Zillion225/Playwright_Saucedemo_Automation.git
    cd your-repo-name
 
 ```
@@ -31,8 +31,6 @@ npm install
 npx playwright install --with-deps
 
 ```
-
-
 
 ---
 
