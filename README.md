@@ -13,7 +13,7 @@ This project contains the end-to-end (E2E) testing suite for **Playwright_Sauced
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
+```bash
    git clone https://github.com/Zillion225/Playwright_Saucedemo_Automation.git
    cd your-repo-name
 
